@@ -30,8 +30,7 @@ class HeatMapContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      // padding: margin ?? const EdgeInsets.all(2),
-      padding: margin ?? const EdgeInsets.only(top: 20, left: 20, bottom: 20),
+      padding: margin ?? const EdgeInsets.all(2),
       child: GestureDetector(
         child: Container(
           decoration: BoxDecoration(
